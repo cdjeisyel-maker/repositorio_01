@@ -22,9 +22,9 @@ cout << "-----------------------" << endl;
 cout << "Nome: " << nome << endl;
 cout << "Peso: " << peso << endl;
 cout << "Altura: " << altura << endl;
-cout << "Nome: " << nome << "peso: " << peso << "Altura: " << altura << "Cálculo IMC É: " << imc << endl;
+cout << "Nome: " << nome << " peso: " << peso << " Altura: " << altura << " Cálculo IMC É: " << imc << endl;
 
-if(imc <=18 && imc <=24 ){
+if(imc < 18 ){
     cout << "Abaixo do peso! " << endl;
 }else if(imc >= 25 && imc <= 29){
     cout << " Peso normal " << endl;
